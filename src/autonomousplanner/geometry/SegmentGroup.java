@@ -24,7 +24,7 @@ public class SegmentGroup {
             Segment a = s.get(i);
             //str += String.format("%4f %4f %4f %4f %4f %4f %4f %4f  \n" , 
              //       a.time,  a.vel, a.acc, a.posit, a.x, a.y, a.dydx, a.d2ydx2);
-             str += String.format("%4f %4f %4f", a.time, a.vel, a.posit);
+             str += String.format("%4f %4f %4f", a.posit, a.vel, a.time);
              str+= ",";
              
         }
